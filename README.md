@@ -24,6 +24,6 @@ pip install -r requirements.txt
 ```
 - Запустить тесты обязательно указав параметр "--language"
 ```
-pytest -s -v --language=ru test_items.py #по умолчанию запускается Chrome
+pytest -s -v --language=fr test_items.py #по умолчанию запускается Chrome
 pytest -s -v --language=ru --browser_name=firefox test_items.py #запустится firefox
 ```
