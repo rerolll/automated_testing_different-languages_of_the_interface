@@ -11,4 +11,4 @@ def test_check_exists_button_add_to_basket(browser):
     button_add_to_basket = browser.find_elements(
         By.CSS_SELECTOR, ".btn-add-to-basket")
     assert button_add_to_basket, "button 'Add to basket' is not found"
-    time.sleep(30)
+    #time.sleep(30)
